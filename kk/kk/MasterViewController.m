@@ -1,7 +1,7 @@
 //
 //  MasterViewController.m
 //  kk
-//
+//];
 //  Created by 凡柳松 on 16/3/9.
 //  Copyright © 2016年 凡柳松. All rights reserved.
 //
@@ -24,6 +24,12 @@
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+    
+    
+    UIButton * button = [[UIButton alloc]init];
+    
+    [button setTitle:@"nihao"forState:UIControlStateNormal];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
