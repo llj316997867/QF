@@ -30,6 +30,8 @@
     
     [button setTitle:@"nihao"forState:UIControlStateNormal];
     
+    UILabel * label = [[UILabel alloc]initWithFrame:CGRectMake(1, 20, 90, 90)];
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
